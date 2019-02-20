@@ -14,7 +14,7 @@ from airflow.models import DAG
 from airflow.operators.bash_operator import BashOperator
 from airflow.operators.python_operator import PythonOperator
 from airflow_plugins.operators.zip import UnzipOperator
-from apiCallScript import API_PythonCallable # import mode from apiCallScript.py
+from apiCallScript import API_PythonCallable # import modual from apiCallScript.py
 from airflow.contrib.operators.file_to_gcs import FileToGoogleCloudStorageOperator
 from airflow.contrib.operators.gcs_to_bq import GoogleCloudStorageToBigQueryOperator
 from airflow.contrib.operators.bigquery_operator import BigQueryCreateExternalTableOperator
